@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -222,7 +222,6 @@ Bourns SSR1260 Series (12.5x12.5 mm)</description>
 <wire x1="-0.07" y1="-3.41" x2="-0.08" y2="5.37" width="0.127" layer="21"/>
 <text x="0.35" y="9.69" size="1.27" layer="25">&gt;NAME</text>
 <text x="0.34" y="-5.03" size="1.27" layer="27">&gt;VALUE</text>
-<dimension x1="12.76" y1="-3.41" x2="-0.07" y2="-3.41" x3="6.345" y3="-7.89" textsize="0.5" layer="47" extlength="0.1" extoffset="0.1" visible="yes"/>
 </package>
 <package name="TSSOP-28">
 <wire x1="-4.7896" y1="-2.1828" x2="4.7896" y2="-2.1828" width="0.1524" layer="21"/>
