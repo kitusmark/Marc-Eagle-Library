@@ -16906,7 +16906,6 @@ Part no: 0526102033</description>
 <rectangle x1="-0.0431" y1="25.30171875" x2="74.9569" y2="25.38793125" layer="21"/>
 <rectangle x1="-0.0431" y1="25.38793125" x2="74.9569" y2="25.474140625" layer="21"/>
 </package>
-<<<<<<< HEAD
 <package name="JST_PA_04">
 <smd name="1" x="-3" y="-2.5" dx="1" dy="2.7" layer="1"/>
 <smd name="2" x="-1" y="-2.5" dx="1" dy="2.7" layer="1"/>
@@ -24099,7 +24098,7 @@ Part no: 0526102033</description>
 <pad name="P$34" x="38.1" y="2.54" drill="1.2" diameter="1.9304"/>
 <pad name="P$35" x="40.64" y="2.54" drill="1.2" diameter="1.9304"/>
 <pad name="P$36" x="43.18" y="2.54" drill="1.2" diameter="1.9304"/>
-=======
+</package>
 <package name="SOT323">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
 <wire x1="-1" y1="-0.55" x2="1" y2="-0.55" width="0.2032" layer="51"/>
@@ -24114,7 +24113,6 @@ Part no: 0526102033</description>
 <rectangle x1="-0.15" y1="0.65" x2="0.15" y2="1.2" layer="51"/>
 <rectangle x1="-0.8" y1="-1.2" x2="-0.5" y2="-0.65" layer="51"/>
 <rectangle x1="0.5" y1="-1.2" x2="0.8" y2="-0.65" layer="51"/>
->>>>>>> origin/master
 </package>
 </packages>
 <symbols>
@@ -27871,19 +27869,18 @@ Part no: 0526102033</description>
 <technology name=""/>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="" package="SOT223">
 <connects>
 <connect gate="Q" pin="D" pad="2 4"/>
 <connect gate="Q" pin="G" pad="1"/>
 <connect gate="Q" pin="S" pad="3"/>
-=======
+</connects>
+</device>
 <device name="SOT323" package="SOT323">
 <connects>
 <connect gate="Q" pin="D" pad="3"/>
 <connect gate="Q" pin="G" pad="1"/>
 <connect gate="Q" pin="S" pad="2"/>
->>>>>>> origin/master
 </connects>
 <technologies>
 <technology name=""/>
